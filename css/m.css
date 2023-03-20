@@ -1,0 +1,67 @@
+body,html{
+    height:100%;
+    margin: 0px;
+    background-color: rgb(243, 245, 247);
+}
+
+  div{
+    
+    display:flex;
+    flex-direction: row;
+    justify-content:center;
+    align-items: center;
+  }
+ #EntEml {
+ display:flex; padding: 100px;
+justify-content : center;
+}
+ 
+ .SignIn{
+display:flex;
+justify-content: center;
+align-items: center;
+margin-right: auto;
+margin-left: auto; }
+
+.boxes{
+    width: 400px;
+    height: 400px;
+  border: 1px solid gray;
+    background-color: aliceblue;
+ 
+}
+#Cntn{
+  align-items: center;
+
+}
+#EntEml{
+  padding: 5px;
+  border: 1px solid black;
+}
+#EntPss{
+  padding: 5px;
+
+}
+#Cntn{
+  padding: 5px;
+text-align: center;
+background-color:aqua;
+
+}
+#Cntn2{
+  padding: 5px;
+text-align: center;
+background-color:aquamarine;
+
+}
+.SignIn{
+  margin: auto;
+  position:relative;
+  display: flex;
+  justify-content: center;
+}
+input{
+  padding: 15px;
+  border: 1px solid black;
+
+}
